@@ -1,2 +1,2 @@
-# Android-Ted-Permissions
+# Android-TPermissions
 Android permissions 
