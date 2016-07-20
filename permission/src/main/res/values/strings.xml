@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="app_name">Permission</string>
+    <string name="permission_action">com.tedkim.android.permission</string>
+
+    <string name="setting_deny_message">If you reject permission, this service you want is not available\nPlease turn on permissions at [Setting] > [Permission]</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <string name="setting">Setting</string>
+
+</resources>
