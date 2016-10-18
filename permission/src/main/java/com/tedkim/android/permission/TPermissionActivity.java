@@ -171,8 +171,8 @@ public class TPermissionActivity extends AppCompatActivity {
         intent.setAction(getString(R.string.permission_action));
         intent.putExtra(PermissionReceiver.PERMISSION_ALLOW, true);
 
-        unregisterReceiver(mPermissionReceiver);
         sendBroadcast(intent);
+        unregisterReceiver(mPermissionReceiver);
         finish();
         overridePendingTransition(0, 0);
     }
@@ -188,8 +188,8 @@ public class TPermissionActivity extends AppCompatActivity {
         }
         intent.putExtra(PermissionReceiver.PERMISSIONS, permissions);
 
-        unregisterReceiver(mPermissionReceiver);
         sendBroadcast(intent);
+        unregisterReceiver(mPermissionReceiver);
         finish();
         overridePendingTransition(0, 0);
     }
